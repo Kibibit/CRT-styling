@@ -12,6 +12,17 @@
   -webkit-font-smoothing: none;
   line-height: 1.2;
   width: 100%;
+  height: 0%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  transition: height 400ms;
+}
+.kb-crt.active {
   height: 100%;
 }
 .kb-crt h1 {
